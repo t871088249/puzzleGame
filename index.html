@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="zh" lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			canvas {
+				/* background-image: url("/test/images/111.jpg"); */
+				background-size: cover;
+				background: #000;
+			}
+		</style>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/phaser.min.js"></script>
+		<script src="/js/index.js" type="module"></script>
+
+		<script>
+			var global_info = {};
+		</script>
+		<script>
+			window.first_time = new Date().getTime();
+			window.ready_time = performance.timing.domLoading;
+			window.start_time = 0;
+			window.end_time = 0;
+			window.assets_host = "";
+			window.step_arr = [];
+			window.puzzle_title = "头像拼图";
+			window.puzzle_img = "/images/111.jpg";
+			
+		</script>
+	</head>
+	<body>
+		<div id="content"></div>
+	
+
+</body></html>
